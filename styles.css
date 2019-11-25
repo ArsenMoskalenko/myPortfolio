@@ -35,6 +35,10 @@ a {
     padding: 8px;
 }
 
+a:hover{
+    color: white
+}
+
 .name {
     display: block;
     margin-right: auto;
