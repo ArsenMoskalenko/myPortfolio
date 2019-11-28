@@ -35,7 +35,7 @@ a {
     padding: 8px;
 }
 
-a:hover{
+.menuA:hover{
     color: white
 
 }
@@ -125,6 +125,4 @@ a:visited {
 
 .tableSiteLink:hover {
     color: blue;
-    
-
 }
