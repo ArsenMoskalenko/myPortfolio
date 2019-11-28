@@ -40,3 +40,17 @@ table {
     border-right: 1px solid #999999 ;
 }
 
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+
+a:hover{
+    color: blue;
+
+}
+
+
+a:visited {
+    color: #800080;
+}
