@@ -14,11 +14,13 @@ a {
 }
 
 .nav {
+    position: fixed;
     min-height: 40px;
     background-color: black;
     text-align: center;
     padding: 10px;
     font-weight: 650;
+    width: 100%;
 }
 
 .menu {
@@ -46,7 +48,7 @@ a {
 }
 
 header {
-    padding-top: 52px;
+    padding-top: 80px;
     width: 100%;
     background-image: url(https://placeimg.com/1000/400/tech);
     background-size: cover;
