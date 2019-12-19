@@ -2,7 +2,7 @@ body{
     margin: 0%;
 }
 
-div{
+.anim{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -17,7 +17,7 @@ p{
     font-size: 30px;
 }
 
-div{
+.anim{
     animation-duration: 10s;
     animation-name: something;
     animation-iteration-count: infinite;
