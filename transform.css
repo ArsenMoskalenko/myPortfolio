@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+}
+
+div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+p{
+    color: cornsilk;
+    font-size: 30px;
+}
+
+div{
+    animation-duration: 10s;
+    animation-name: something;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes something{
+
+    10%{
+         width: 150px;
+         height: 150px;
+         margin: 0;
+    }
+
+    30%{
+        width: 1000px;
+        height: 1000px;
+        margin: 0;
+    }
+
+    60%{
+        width: 150px;
+        height: 150px;
+        margin: 800px;
+    }
+    
+    80%{
+        width: 1000px;
+        height: 1000px;
+        margin: 0;
+    }
+
+    100%{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+a:visited {
+    color: #800080;
+}

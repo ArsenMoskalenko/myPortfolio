@@ -53,3 +53,8 @@ a:hover{
 a:visited {
     color: #800080;
 }
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
