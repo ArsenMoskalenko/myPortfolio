@@ -8,10 +8,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-a {
-    text-decoration: none;
-    color: #0499ff;
-}
+
 
 .nav {
     position: fixed;
@@ -35,10 +32,6 @@ a {
 
 .menu li {
     padding: 8px;
-}
-
-.menuA:hover{
-    color: white;
 }
 
 .name {
@@ -126,4 +119,13 @@ a:visited {
 
 .tableSiteLink:hover {
     color: blue;
+}
+
+.menuA:hover{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #0499ff;
 }
